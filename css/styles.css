@@ -167,14 +167,13 @@ ul {
 
 /* мейн-контент */
 .main-section {
-  width: 1600px;
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2F303A;
   background-image: url(../images/title/herov.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 
 
