@@ -246,6 +246,16 @@ ul {
   background-color: var(--white-cl);
 }
 
+.icons-tim {
+  fill: #AFB1B8;
+}
+
+.link-inst {
+
+  border-radius: 50%;
+  background-color: blue;
+}
+
 .list-item {
   display: block;
   width: 270px;
@@ -254,6 +264,8 @@ ul {
 .list-specific .list-item+.list-item {
   margin-left: 30px;
 }
+
+.icon-specification {}
 
 /* Наші послуги */
 
