@@ -92,6 +92,18 @@ ul {
   display: flex;
 }
 
+.svg-header {
+  justify-content: center;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.svg-header:hover .svg-header:focus {
+  color: var(--blue-cl);
+}
+
+
+
 /* Логотип компанії */
 .logo {
   margin-right: 93px;
@@ -157,6 +169,8 @@ ul {
 }
 
 .force-contact {
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -239,7 +253,6 @@ ul {
   width: 270px;
   height: 120px;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-right: 30px;
 
