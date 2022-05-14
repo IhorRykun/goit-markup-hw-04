@@ -249,14 +249,6 @@ ul {
   color: var(--black-cl);
 }
 
-.icon-specification {
-  width: 270px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-
-}
 
 .list-specific {
   display: flex;
@@ -268,8 +260,15 @@ ul {
   background-color: var(--white-cl);
 }
 
-.icons-tim {
-  fill: #AFB1B8;
+.div-svg-specification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
 }
 
 
@@ -316,6 +315,21 @@ ul {
   text-align: center;
 
   color: var(--black-cl);
+}
+
+.icons-tim {
+
+  color: carent;
+}
+
+.link-inst {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.link-inst:hover {
+  background-color: var(--blue-cl);
 }
 
 .tim {
