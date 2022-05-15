@@ -5,6 +5,7 @@
   --black-cl: #212121;
   --white-cl: #FFFFFF;
   --bgk-btn: #F5F4FA;
+  --white-grey: #AFB1B8;
 }
 
 body {
@@ -324,7 +325,7 @@ ul {
 }
 
 .socials-svg {
-  fill: var(--grey-cl);
+  fill: var(--white-grey);
 }
 
 .link-svg {
@@ -509,7 +510,49 @@ ul {
   line-height: 1.88;
 }
 
+/* Наші клієнти */
+
+.klients-company {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--white-cl);
+}
+
+.list-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.svg-klienty {
+  fill: var(--white-grey);
+}
+
+.constant-clients {
+  margin-right: 30px;
+}
+
+.constant-clients:last-child {
+  margin-right: 0;
+}
+
+.company-svg:hover .svg-klienty {
+  fill: var(--blue-cl);
+}
+
+
 /* футер */
+
 .footer {
   background-color: #2F303A;
 }
