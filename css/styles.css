@@ -317,16 +317,6 @@ ul {
   color: var(--black-cl);
 }
 
-.icons-tim {
-
-  fill: #AFB1B8;
-}
-
-.link-inst {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
 
 .link-inst:hover {
   background-color: var(--blue-cl);
