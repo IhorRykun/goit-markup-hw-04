@@ -337,15 +337,20 @@ ul {
   border-radius: 50%;
 }
 
-.link-svg:hover,
-.linl-svg:focus {
+.link-svg:hover {
   background-color: var(--blue-cl);
 }
 
-.link-svg:hover .socials-svg,
-.link-svg:hover.socials-svg {
+.link-svg:hover .socials-svg {
   fill: var(--white-cl);
+}
 
+.link-svg:focus {
+  background-color: var(--blue-cl);
+}
+
+.link-svg:focus .socials-svg {
+  fill: var(--white-cl);
 }
 
 .svg-item {
