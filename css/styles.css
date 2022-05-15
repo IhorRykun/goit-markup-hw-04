@@ -317,8 +317,46 @@ ul {
   color: var(--black-cl);
 }
 
+.socials-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.link-inst:hover {
+.socials-svg {
+  fill: var(--grey-cl);
+}
+
+.link-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.link-svg:hover,
+.linl-svg:focus {
+  background-color: var(--blue-cl);
+}
+
+.link-svg:hover .socials-svg,
+.link-svg:hover.socials-svg {
+  fill: var(--white-cl);
+
+}
+
+.svg-item {
+  margin-left: 10px;
+}
+
+.svg-item:first-child {
+  margin-left: 0px;
+}
+
+
+.lin .link-inst:hover {
   background-color: var(--blue-cl);
 }
 
@@ -345,6 +383,7 @@ ul {
 
 .cmd-prof {
   margin-top: 10px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
