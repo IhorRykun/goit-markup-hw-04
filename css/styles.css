@@ -557,7 +557,8 @@ ul {
   margin-right: 0;
 }
 
-.company-svg:hover .svg-klienty {
+.company-svg:hover .svg-klienty,
+.company-svg:focus .svg-klienty {
   fill: var(--blue-cl);
 }
 
