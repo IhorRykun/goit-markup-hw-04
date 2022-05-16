@@ -551,6 +551,11 @@ ul {
   fill: var(--white-grey);
 }
 
+.company-svg:hover,
+.company-svg:focus {
+  border-color: var(--blue-cl);
+}
+
 .constant-clients {
   margin-right: 30px;
 }
