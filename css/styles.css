@@ -354,6 +354,10 @@ ul {
   margin-left: 10px;
 }
 
+.svg-white {
+  fill: var(--white-cl);
+}
+
 .svg-item:first-child {
   margin-left: 0px;
 }
