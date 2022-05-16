@@ -44,7 +44,7 @@ ul {
 
 /* хедер */
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   background-color: var(--white-cl);
 }
 
@@ -65,10 +65,6 @@ ul {
   margin-left: 50px;
 }
 
-.site-nav {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .mail-nav .site-nav+.site-nav {
   margin-left: 50px;
