@@ -623,5 +623,10 @@ ul {
 }
 
 .svg-footer-socsety {
-  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.footer-flex {
+  display: flex;
+
 }
