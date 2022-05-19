@@ -276,7 +276,6 @@ ul {
   background-color: #F5F4FA;
 }
 
-
 .list-item {
   display: block;
   width: 270px;
@@ -291,6 +290,7 @@ ul {
 .section-poslygi {
   padding-bottom: 94px;
   background-color: var(--white-cl);
+  position: relative;
 }
 
 .poslygi-title {
@@ -494,11 +494,11 @@ ul {
   background-color: var(--blue-cl);
 }
 
-.list-li {
+/* .list-li {
   position: relative;
-}
+} */
 
-.poslugi-footer {
+/* .poslugi-footer {
   color: var(--white-cl);
   font-weight: 700;
   text-align: center;
@@ -513,9 +513,19 @@ ul {
   position: absolute;
   left: 0;
   bottom: 0;
+} */
+.list-li::before {
+  position: absolute;
+  display: flex;
+  content: "";
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  left: 0;
+  bottom: 0;
+
+
 }
-
-
 
 
 .lst-portfolio-title {
@@ -642,6 +652,8 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+
 
 .img-link,
 .img-itm {
